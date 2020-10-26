@@ -1526,6 +1526,7 @@
    <wangtile tileid="336" wangid="5,2,5,2,2,2,2,2"/>
    <wangtile tileid="337" wangid="5,2,5,2,2,2,2,2"/>
    <wangtile tileid="339" wangid="2,1,1,1,2,1,2,1"/>
+   <wangtile tileid="346" wangid="2,2,2,2,2,2,2,2"/>
    <wangtile tileid="359" wangid="2,2,2,2,7,7,7,2"/>
    <wangtile tileid="360" wangid="7,2,7,7,7,7,7,2"/>
    <wangtile tileid="361" wangid="2,2,7,7,7,7,7,2"/>

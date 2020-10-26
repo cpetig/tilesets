@@ -5,6 +5,8 @@ These Wang tilesets use:
    MapTool. Please make sure that the tiles are reachable in directory
    ".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Open Areas/Dungeon Tile217.jpg"
 
+   The image archive might still be available from http://library.rptools.net/1.3/listArtPacks
+
  - Any set of blob tiles from http://cr31.co.uk/stagecast/wang/intro.html,
    save as 0.gif, 1.gif and so on
 
