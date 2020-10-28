@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="ProBono50_orig" tilewidth="300" tileheight="300" tilecount="490" columns="0" canrotate="1">
+<tileset version="1.4" tiledversion="1.4.3" name="ProBono50_V2" tilewidth="300" tileheight="300" tilecount="490" columns="0" canrotate="1">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Open Areas/Dungeon Tile219.jpg"/>
@@ -1472,7 +1472,7 @@
   <image width="300" height="300" source=".maptool-rptools/resource/christofAdd/Pillar.jpg"/>
  </tile>
  <wangsets>
-  <wangset name="Converted Terrains" type="mixed" tile="44">
+  <wangset name="Most Flexible Wang Set" type="mixed" tile="44">
    <wangcolor name="Floor" color="#ff7700" tile="5" probability="1"/>
    <wangcolor name="Black" color="#424242" tile="346" probability="1"/>
    <wangcolor name="Water" color="#4a7dff" tile="182" probability="1"/>
@@ -1527,7 +1527,7 @@
    <wangtile tileid="295" wangid="2,1,1,2,2,1,1,1"/>
    <wangtile tileid="296" wangid="2,1,1,2,2,1,1,1"/>
    <wangtile tileid="298" wangid="2,1,1,2,2,1,1,2"/>
-   <wangtile tileid="299" wangid="0,1,1,0,0,0,1,1"/>
+   <wangtile tileid="299" wangid="2,1,1,2,2,2,1,1"/>
    <wangtile tileid="300" wangid="2,1,1,2,2,2,1,1"/>
    <wangtile tileid="301" wangid="2,1,1,2,2,2,5,2"/>
    <wangtile tileid="302" wangid="2,1,1,2,2,2,5,2"/>
