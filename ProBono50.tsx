@@ -85,31 +85,31 @@
  <tile id="27">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile177 Bogie.jpg"/>
  </tile>
- <tile id="28">
+ <tile id="28" probability="0.1">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile176 Bogie.jpg"/>
  </tile>
- <tile id="29">
+ <tile id="29" probability="0.1">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile175 Bogie.jpg"/>
  </tile>
- <tile id="30">
+ <tile id="30" probability="0.1">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile174 Bogie.jpg"/>
  </tile>
  <tile id="31">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile Rail Crossing W42.jpg"/>
  </tile>
- <tile id="32">
+ <tile id="32" probability="5">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile Rail 1 Way W42.jpg"/>
  </tile>
  <tile id="33">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile 96.jpg"/>
  </tile>
- <tile id="34">
+ <tile id="34" probability="0.1">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile 95.jpg"/>
  </tile>
  <tile id="35">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile 94.jpg"/>
  </tile>
- <tile id="36">
+ <tile id="36" probability="5">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/6x6 Train/Dungeon Tile 93.jpg"/>
  </tile>
  <tile id="37">
@@ -1484,19 +1484,30 @@
    <wangtile tileid="6" wangid="1,1,1,1,1,1,1,2"/>
    <wangtile tileid="7" wangid="2,2,1,1,1,2,2,2"/>
    <wangtile tileid="8" wangid="1,1,1,1,1,2,2,2"/>
-   <wangtile tileid="9" wangid="1,1,1,1,1,2,1,2"/>
+   <wangtile tileid="9" wangid="1,1,1,1,1,2,5,2"/>
    <wangtile tileid="27" wangid="4,2,2,2,4,2,2,2"/>
    <wangtile tileid="28" wangid="2,2,4,2,2,2,4,2"/>
    <wangtile tileid="29" wangid="2,2,4,2,2,2,4,2"/>
    <wangtile tileid="30" wangid="2,2,4,2,2,2,4,2"/>
    <wangtile tileid="31" wangid="4,2,4,2,4,2,4,2"/>
-   <wangtile tileid="32" wangid="2,2,4,2,2,2,4,2"/>
-   <wangtile tileid="33" wangid="2,2,4,2,1,2,4,2"/>
-   <wangtile tileid="35" wangid="1,2,4,2,1,2,4,2"/>
+   <wangtile tileid="32" wangid="2,2,4,2,2,2,2,2"/>
+   <wangtile tileid="33" wangid="2,2,4,2,5,2,4,2"/>
+   <wangtile tileid="34" wangid="2,2,4,2,2,2,4,2"/>
+   <wangtile tileid="35" wangid="5,2,4,2,5,2,4,2"/>
    <wangtile tileid="36" wangid="2,2,4,2,2,2,4,2"/>
    <wangtile tileid="37" wangid="2,2,4,2,4,2,4,2"/>
    <wangtile tileid="38" wangid="4,2,2,2,2,2,4,2"/>
    <wangtile tileid="39" wangid="1,2,4,2,2,2,2,2"/>
+   <wangtile tileid="110" wangid="2,2,2,2,5,2,2,2"/>
+   <wangtile tileid="127" wangid="5,2,5,2,5,2,2,2"/>
+   <wangtile tileid="129" wangid="2,2,5,2,2,2,2,2"/>
+   <wangtile tileid="136" wangid="5,2,2,2,5,2,2,2"/>
+   <wangtile tileid="144" wangid="5,2,5,2,5,2,5,2"/>
+   <wangtile tileid="145" wangid="2,2,5,2,5,2,2,2"/>
+   <wangtile tileid="156" wangid="2,2,5,2,5,2,5,2"/>
+   <wangtile tileid="157" wangid="2,2,2,2,5,2,2,2"/>
+   <wangtile tileid="158" wangid="2,2,5,2,5,2,2,2"/>
+   <wangtile tileid="159" wangid="5,2,2,2,5,2,2,2"/>
    <wangtile tileid="182" wangid="3,3,3,3,3,3,3,3"/>
    <wangtile tileid="243" wangid="2,2,2,1,2,1,1,1"/>
    <wangtile tileid="246" wangid="2,2,2,1,1,2,1,1"/>
@@ -1508,6 +1519,9 @@
    <wangtile tileid="275" wangid="2,1,2,2,2,2,2,1"/>
    <wangtile tileid="279" wangid="1,1,1,2,2,1,1,1"/>
    <wangtile tileid="283" wangid="2,2,1,1,1,1,1,2"/>
+   <wangtile tileid="286" wangid="1,1,1,2,2,2,5,2"/>
+   <wangtile tileid="287" wangid="5,2,5,2,2,2,5,2"/>
+   <wangtile tileid="288" wangid="5,2,5,2,2,2,5,2"/>
    <wangtile tileid="291" wangid="2,1,1,1,2,1,1,1"/>
    <wangtile tileid="292" wangid="2,1,1,1,2,1,1,1"/>
    <wangtile tileid="295" wangid="2,1,1,2,2,1,1,1"/>
@@ -1515,7 +1529,9 @@
    <wangtile tileid="298" wangid="2,1,1,2,2,1,1,2"/>
    <wangtile tileid="299" wangid="0,1,1,0,0,0,1,1"/>
    <wangtile tileid="300" wangid="2,1,1,2,2,2,1,1"/>
-   <wangtile tileid="302" wangid="0,1,1,0,0,0,5,0"/>
+   <wangtile tileid="301" wangid="2,1,1,2,2,2,5,2"/>
+   <wangtile tileid="302" wangid="2,1,1,2,2,2,5,2"/>
+   <wangtile tileid="303" wangid="2,1,2,2,2,2,2,2"/>
    <wangtile tileid="308" wangid="2,2,1,2,2,2,1,2"/>
    <wangtile tileid="309" wangid="2,2,1,2,2,2,1,2"/>
    <wangtile tileid="312" wangid="1,1,1,1,2,1,2,1"/>
@@ -1534,7 +1550,9 @@
    <wangtile tileid="363" wangid="2,2,7,7,7,7,7,2"/>
    <wangtile tileid="364" wangid="2,2,2,2,7,7,7,2"/>
    <wangtile tileid="365" wangid="2,2,2,2,7,7,7,2"/>
-   <wangtile tileid="368" wangid="7,0,0,0,0,0,0,0"/>
+   <wangtile tileid="366" wangid="2,2,7,2,7,7,7,2"/>
+   <wangtile tileid="367" wangid="5,2,7,7,7,7,7,2"/>
+   <wangtile tileid="368" wangid="7,2,2,2,2,2,2,2"/>
    <wangtile tileid="369" wangid="7,2,7,2,7,2,2,2"/>
    <wangtile tileid="370" wangid="7,2,2,2,7,2,2,2"/>
    <wangtile tileid="371" wangid="7,2,7,2,7,2,7,2"/>
@@ -1548,6 +1566,18 @@
    <wangtile tileid="379" wangid="5,2,2,2,7,2,2,2"/>
    <wangtile tileid="380" wangid="7,2,7,2,7,2,5,2"/>
    <wangtile tileid="381" wangid="7,2,7,2,5,2,7,2"/>
+   <wangtile tileid="382" wangid="7,2,2,2,2,2,2,2"/>
+   <wangtile tileid="386" wangid="2,2,7,2,2,2,7,2"/>
+   <wangtile tileid="387" wangid="7,2,7,2,7,2,7,2"/>
+   <wangtile tileid="388" wangid="2,2,7,2,7,2,7,2"/>
+   <wangtile tileid="389" wangid="7,2,7,2,7,2,2,2"/>
+   <wangtile tileid="390" wangid="7,2,7,2,2,2,2,2"/>
+   <wangtile tileid="391" wangid="2,2,7,2,7,2,2,2"/>
+   <wangtile tileid="392" wangid="2,2,2,2,7,2,2,2"/>
+   <wangtile tileid="394" wangid="7,2,7,2,7,2,7,2"/>
+   <wangtile tileid="395" wangid="7,2,7,2,7,2,7,2"/>
+   <wangtile tileid="396" wangid="7,2,7,2,5,2,7,2"/>
+   <wangtile tileid="397" wangid="7,2,7,2,5,2,7,2"/>
    <wangtile tileid="401" wangid="3,3,1,3,1,3,1,3"/>
    <wangtile tileid="402" wangid="1,1,3,3,1,3,3,1"/>
    <wangtile tileid="403" wangid="3,3,3,3,3,1,1,1"/>
