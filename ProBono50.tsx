@@ -1482,6 +1482,8 @@
    <wangcolor name="Cave" color="#ff5500" tile="368" probability="1"/>
    <wangcolor name="Wide corridor" color="#a000ff" tile="-1" probability="1"/>
    <wangcolor name="Water+walkway" color="#00ffa1" tile="-1" probability="1"/>
+   <wangcolor name="Temple floor light" color="#ffa8a8" tile="-1" probability="1"/>
+   <wangcolor name="Temple floor dark" color="#805252" tile="-1" probability="1"/>
    <wangtile tileid="5" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="6" wangid="1,1,1,1,1,1,1,2"/>
    <wangtile tileid="7" wangid="2,2,1,1,1,2,2,2"/>
@@ -1491,8 +1493,18 @@
    <wangtile tileid="11" wangid="1,2,2,2,1,1,1,1"/>
    <wangtile tileid="12" wangid="1,1,1,2,2,2,2,2"/>
    <wangtile tileid="13" wangid="2,2,2,2,8,1,8,2"/>
-   <wangtile tileid="14" wangid="0,2,1,1,1,1,1,2"/>
+   <wangtile tileid="14" wangid="5,2,1,1,1,1,1,2"/>
    <wangtile tileid="15" wangid="2,2,1,1,1,2,2,2"/>
+   <wangtile tileid="16" wangid="10,10,10,10,10,11,10,10"/>
+   <wangtile tileid="17" wangid="10,11,11,11,11,11,10,10"/>
+   <wangtile tileid="18" wangid="10,10,10,10,10,11,11,11"/>
+   <wangtile tileid="19" wangid="1,1,10,1,1,1,10,1"/>
+   <wangtile tileid="20" wangid="10,10,10,1,1,1,1,1"/>
+   <wangtile tileid="21" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="22" wangid="1,1,10,10,10,10,10,1"/>
+   <wangtile tileid="24" wangid="10,10,5,10,10,1,5,1"/>
+   <wangtile tileid="25" wangid="1,1,10,10,10,10,10,1"/>
+   <wangtile tileid="26" wangid="1,1,10,10,10,1,1,1"/>
    <wangtile tileid="27" wangid="4,2,2,2,4,2,2,2"/>
    <wangtile tileid="28" wangid="2,2,4,2,2,2,4,2"/>
    <wangtile tileid="29" wangid="2,2,4,2,2,2,4,2"/>
@@ -1516,7 +1528,7 @@
    <wangtile tileid="147" wangid="5,2,5,2,2,2,5,2"/>
    <wangtile tileid="148" wangid="2,2,5,2,5,2,2,2"/>
    <wangtile tileid="149" wangid="5,2,5,2,5,2,5,2"/>
-   <wangtile tileid="150" wangid="0,2,2,2,0,2,2,2"/>
+   <wangtile tileid="150" wangid="5,2,2,2,5,2,2,2"/>
    <wangtile tileid="156" wangid="2,2,5,2,5,2,5,2"/>
    <wangtile tileid="157" wangid="2,2,2,2,5,2,2,2"/>
    <wangtile tileid="158" wangid="2,2,5,2,5,2,2,2"/>
@@ -1534,7 +1546,7 @@
    <wangtile tileid="170" wangid="1,1,1,1,3,1,3,1"/>
    <wangtile tileid="171" wangid="1,1,3,1,1,1,3,1"/>
    <wangtile tileid="172" wangid="5,2,3,2,5,2,3,2"/>
-   <wangtile tileid="173" wangid="1,0,3,0,1,1,3,1"/>
+   <wangtile tileid="173" wangid="1,2,3,2,1,1,3,1"/>
    <wangtile tileid="174" wangid="2,2,3,2,2,2,3,2"/>
    <wangtile tileid="175" wangid="2,2,9,2,2,2,9,2"/>
    <wangtile tileid="176" wangid="5,2,3,2,5,2,9,2"/>
@@ -1587,11 +1599,15 @@
    <wangtile tileid="259" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="260" wangid="1,1,1,1,1,1,1,1"/>
    <wangtile tileid="261" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="263" wangid="1,1,1,2,1,1,1,1"/>
+   <wangtile tileid="264" wangid="1,1,1,2,1,1,1,1"/>
+   <wangtile tileid="265" wangid="0,0,0,0,0,0,0,1"/>
    <wangtile tileid="266" wangid="1,1,1,2,1,1,1,2"/>
    <wangtile tileid="268" wangid="1,1,1,2,5,2,1,1"/>
-   <wangtile tileid="269" wangid="1,0,1,2,5,2,5,2"/>
+   <wangtile tileid="269" wangid="1,1,1,2,5,2,5,2"/>
    <wangtile tileid="270" wangid="1,1,1,2,5,2,5,2"/>
    <wangtile tileid="272" wangid="5,2,5,2,5,2,5,2"/>
+   <wangtile tileid="273" wangid="1,1,1,1,2,1,1,1"/>
    <wangtile tileid="274" wangid="1,1,1,1,2,1,1,1"/>
    <wangtile tileid="275" wangid="2,1,2,2,2,2,2,1"/>
    <wangtile tileid="279" wangid="1,1,1,2,2,1,1,1"/>
@@ -1619,7 +1635,9 @@
    <wangtile tileid="313" wangid="1,1,1,1,2,1,2,1"/>
    <wangtile tileid="317" wangid="1,1,1,2,2,1,2,1"/>
    <wangtile tileid="319" wangid="1,1,1,2,2,1,2,1"/>
+   <wangtile tileid="323" wangid="1,1,1,2,2,1,2,2"/>
    <wangtile tileid="325" wangid="1,1,1,2,2,1,2,2"/>
+   <wangtile tileid="326" wangid="1,1,1,2,2,2,2,1"/>
    <wangtile tileid="327" wangid="1,1,1,2,2,2,2,1"/>
    <wangtile tileid="328" wangid="1,1,1,2,2,2,2,2"/>
    <wangtile tileid="329" wangid="1,1,1,2,2,2,2,2"/>
@@ -1627,8 +1645,10 @@
    <wangtile tileid="334" wangid="5,2,5,2,2,2,2,2"/>
    <wangtile tileid="336" wangid="5,2,5,2,2,2,2,2"/>
    <wangtile tileid="337" wangid="5,2,5,2,2,2,2,2"/>
+   <wangtile tileid="338" wangid="2,1,1,1,2,1,2,1"/>
    <wangtile tileid="339" wangid="2,1,1,1,2,1,2,1"/>
    <wangtile tileid="341" wangid="2,1,1,2,2,1,0,1"/>
+   <wangtile tileid="344" wangid="2,2,2,1,2,2,1,1"/>
    <wangtile tileid="345" wangid="2,1,1,2,2,1,2,2"/>
    <wangtile tileid="346" wangid="2,2,2,2,2,2,2,2"/>
    <wangtile tileid="347" wangid="8,2,2,2,2,2,8,1"/>
