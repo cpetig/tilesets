@@ -1468,8 +1468,8 @@
  <tile id="488">
   <image width="300" height="300" source=".maptool-rptools/resource/ProBono's 6x6 Mega Tile Pack V2 - Grid50/Outside Mansion Walls/Dungeon Tile235.jpg"/>
  </tile>
- <tile id="489">
-  <image width="300" height="300" source=".maptool-rptools/resource/christofAdd/Pillar.jpg"/>
+ <tile id="491">
+  <image width="300" height="300" source="CaveMid2.jpg"/>
  </tile>
  <wangsets>
   <wangset name="Most Flexible Wang Set" type="mixed" tile="44">
@@ -1728,6 +1728,7 @@
    <wangtile tileid="454" wangid="6,6,6,6,6,6,1,6"/>
    <wangtile tileid="455" wangid="6,6,6,6,6,6,1,6"/>
    <wangtile tileid="459" wangid="6,6,6,6,6,6,6,6"/>
+   <wangtile tileid="491" wangid="7,7,7,7,7,7,7,7"/>
   </wangset>
  </wangsets>
 </tileset>
