@@ -10,5 +10,4 @@ These Wang tilesets use:
  - Any set of blob tiles from http://cr31.co.uk/stagecast/wang/intro.html,
    save as 0.gif, 1.gif and so on
 
-And unfortunately these tile sets require the Wang Tile rotation feature of 
-https://github.com/bjorn/tiled/issues/2833
+**Note:** These tile sets rely on the [Wang improvements](https://github.com/mapeditor/tiled/pull/2888) and [Wang tile rotation feature](https://github.com/bjorn/tiled/issues/2833), released with Tiled 1.5.
